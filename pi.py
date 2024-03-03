@@ -1,5 +1,5 @@
 def show_tree(): # use function to draw a tree
-  picture = [
+  tree_pic = [
     [0,0,0,1,0,0,0],
     [0,0,1,1,1,0,0],
     [0,1,1,1,1,1,0],
@@ -11,7 +11,7 @@ def show_tree(): # use function to draw a tree
   space = 0 # var access the 0 in nested list
   # var access the 1 in nested list
   aesthetic = 1
-  for row in picture: # row in the nested list
+  for row in tree_pic: # row in the nested list
     for item in row: # item takes the row value
       # Print out the space and aesthetic
       if item == space: 
